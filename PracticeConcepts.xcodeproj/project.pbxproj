@@ -18,6 +18,11 @@
 		291F5D2D25F44126001043B8 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F5D2C25F44126001043B8 /* UIDevice+Extensions.swift */; };
 		291F5D3225F4414E001043B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F5D3125F4414E001043B8 /* HomeViewController.swift */; };
 		291F5D3825F443E0001043B8 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F5D3725F443E0001043B8 /* MainCell.swift */; };
+		2972E3B425F4891000529EB7 /* DelegatePatternTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3B325F4891000529EB7 /* DelegatePatternTabBarController.swift */; };
+		2972E3B925F48ECC00529EB7 /* DelegatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3B825F48ECC00529EB7 /* DelegatorViewController.swift */; };
+		2972E3BE25F48F0800529EB7 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3BD25F48F0800529EB7 /* DelegateViewController.swift */; };
+		2972E3C625F48FBB00529EB7 /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3C525F48FBB00529EB7 /* ExplanationViewController.swift */; };
+		2980A17D25F4935E00A66E32 /* BaseConceptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980A17C25F4935E00A66E32 /* BaseConceptController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		291F5D2C25F44126001043B8 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		291F5D3125F4414E001043B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		291F5D3725F443E0001043B8 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		2972E3B325F4891000529EB7 /* DelegatePatternTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePatternTabBarController.swift; sourceTree = "<group>"; };
+		2972E3B825F48ECC00529EB7 /* DelegatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatorViewController.swift; sourceTree = "<group>"; };
+		2972E3BD25F48F0800529EB7 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		2972E3C525F48FBB00529EB7 /* ExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
+		2980A17C25F4935E00A66E32 /* BaseConceptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConceptController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +158,9 @@
 		291F5D3F25F455D7001043B8 /* DelegatePattern */ = {
 			isa = PBXGroup;
 			children = (
+				2972E3B325F4891000529EB7 /* DelegatePatternTabBarController.swift */,
+				2972E3B825F48ECC00529EB7 /* DelegatorViewController.swift */,
+				2972E3BD25F48F0800529EB7 /* DelegateViewController.swift */,
 			);
 			path = DelegatePattern;
 			sourceTree = "<group>";
@@ -157,6 +170,8 @@
 			children = (
 				291F5D3725F443E0001043B8 /* MainCell.swift */,
 				291F5D3125F4414E001043B8 /* HomeViewController.swift */,
+				2972E3C525F48FBB00529EB7 /* ExplanationViewController.swift */,
+				2980A17C25F4935E00A66E32 /* BaseConceptController.swift */,
 			);
 			path = MainHub;
 			sourceTree = "<group>";
@@ -292,10 +307,15 @@
 			files = (
 				291F5CF625F44058001043B8 /* ViewController.swift in Sources */,
 				291F5D3825F443E0001043B8 /* MainCell.swift in Sources */,
+				2972E3C625F48FBB00529EB7 /* ExplanationViewController.swift in Sources */,
 				291F5CF225F44058001043B8 /* AppDelegate.swift in Sources */,
+				2972E3B925F48ECC00529EB7 /* DelegatorViewController.swift in Sources */,
+				2980A17D25F4935E00A66E32 /* BaseConceptController.swift in Sources */,
 				291F5CF425F44058001043B8 /* SceneDelegate.swift in Sources */,
+				2972E3BE25F48F0800529EB7 /* DelegateViewController.swift in Sources */,
 				291F5D2D25F44126001043B8 /* UIDevice+Extensions.swift in Sources */,
 				291F5D2825F4411A001043B8 /* Boilerplate.swift in Sources */,
+				2972E3B425F4891000529EB7 /* DelegatePatternTabBarController.swift in Sources */,
 				291F5D3225F4414E001043B8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

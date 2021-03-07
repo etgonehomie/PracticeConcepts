@@ -22,6 +22,7 @@ class Boilerplate {
         
         // Set the view controller to the scene and make it visible
         window.rootViewController = UINavigationController(rootViewController: controller)
+        window.rootViewController?.title = "Concept Navigation"
         window.makeKeyAndVisible()
         return window
     }
