@@ -10,7 +10,7 @@ import UIKit
 class DelegateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .brown
+        view.backgroundColor = .green
         title = "Delegate View Controller"
     }
 }

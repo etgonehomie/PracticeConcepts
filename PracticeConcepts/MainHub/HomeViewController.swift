@@ -53,6 +53,7 @@ extension HomeViewController {
         return [
             communicationPatterns,
             apis,
+            closures,
         ]
     }
     
@@ -68,6 +69,10 @@ extension HomeViewController {
         OutlineItem(title: "APIs", subitems: [
             OutlineItem(title: "Grabbing JSON", viewController: DelegatePatternController.self)
         ])
+    }
+    
+    private var closures: OutlineItem {
+        OutlineItem(title: "Closures", viewController: DelegatePatternController.self)
     }
 }
 

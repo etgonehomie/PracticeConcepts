@@ -21,8 +21,9 @@
 		2972E3B425F4891000529EB7 /* DelegatePatternTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3B325F4891000529EB7 /* DelegatePatternTabBarController.swift */; };
 		2972E3B925F48ECC00529EB7 /* DelegatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3B825F48ECC00529EB7 /* DelegatorViewController.swift */; };
 		2972E3BE25F48F0800529EB7 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3BD25F48F0800529EB7 /* DelegateViewController.swift */; };
-		2972E3C625F48FBB00529EB7 /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3C525F48FBB00529EB7 /* ExplanationViewController.swift */; };
-		2980A17D25F4935E00A66E32 /* BaseConceptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980A17C25F4935E00A66E32 /* BaseConceptController.swift */; };
+		2972E3C625F48FBB00529EB7 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972E3C525F48FBB00529EB7 /* Concept.swift */; };
+		2980A17D25F4935E00A66E32 /* BaseConceptTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980A17C25F4935E00A66E32 /* BaseConceptTabBar.swift */; };
+		2980A18625F49CF600A66E32 /* ConceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980A18525F49CF600A66E32 /* ConceptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,9 @@
 		2972E3B325F4891000529EB7 /* DelegatePatternTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePatternTabBarController.swift; sourceTree = "<group>"; };
 		2972E3B825F48ECC00529EB7 /* DelegatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatorViewController.swift; sourceTree = "<group>"; };
 		2972E3BD25F48F0800529EB7 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
-		2972E3C525F48FBB00529EB7 /* ExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
-		2980A17C25F4935E00A66E32 /* BaseConceptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConceptController.swift; sourceTree = "<group>"; };
+		2972E3C525F48FBB00529EB7 /* Concept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concept.swift; sourceTree = "<group>"; };
+		2980A17C25F4935E00A66E32 /* BaseConceptTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConceptTabBar.swift; sourceTree = "<group>"; };
+		2980A18525F49CF600A66E32 /* ConceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,8 @@
 		291F5CF025F44058001043B8 /* PracticeConcepts */ = {
 			isa = PBXGroup;
 			children = (
+				2980A18A25F5980400A66E32 /* Common */,
+				2980A18425F49CA700A66E32 /* Protocols */,
 				291F5D4025F455E4001043B8 /* MainHub */,
 				291F5D3F25F455D7001043B8 /* DelegatePattern */,
 				291F5D3625F442B9001043B8 /* Utilities */,
@@ -170,10 +174,25 @@
 			children = (
 				291F5D3725F443E0001043B8 /* MainCell.swift */,
 				291F5D3125F4414E001043B8 /* HomeViewController.swift */,
-				2972E3C525F48FBB00529EB7 /* ExplanationViewController.swift */,
-				2980A17C25F4935E00A66E32 /* BaseConceptController.swift */,
 			);
 			path = MainHub;
+			sourceTree = "<group>";
+		};
+		2980A18425F49CA700A66E32 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2980A17C25F4935E00A66E32 /* BaseConceptTabBar.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2980A18A25F5980400A66E32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2972E3C525F48FBB00529EB7 /* Concept.swift */,
+				2980A18525F49CF600A66E32 /* ConceptViewController.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,12 +326,13 @@
 			files = (
 				291F5CF625F44058001043B8 /* ViewController.swift in Sources */,
 				291F5D3825F443E0001043B8 /* MainCell.swift in Sources */,
-				2972E3C625F48FBB00529EB7 /* ExplanationViewController.swift in Sources */,
+				2972E3C625F48FBB00529EB7 /* Concept.swift in Sources */,
 				291F5CF225F44058001043B8 /* AppDelegate.swift in Sources */,
 				2972E3B925F48ECC00529EB7 /* DelegatorViewController.swift in Sources */,
-				2980A17D25F4935E00A66E32 /* BaseConceptController.swift in Sources */,
+				2980A17D25F4935E00A66E32 /* BaseConceptTabBar.swift in Sources */,
 				291F5CF425F44058001043B8 /* SceneDelegate.swift in Sources */,
 				2972E3BE25F48F0800529EB7 /* DelegateViewController.swift in Sources */,
+				2980A18625F49CF600A66E32 /* ConceptViewController.swift in Sources */,
 				291F5D2D25F44126001043B8 /* UIDevice+Extensions.swift in Sources */,
 				291F5D2825F4411A001043B8 /* Boilerplate.swift in Sources */,
 				2972E3B425F4891000529EB7 /* DelegatePatternTabBarController.swift in Sources */,
